@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ioft/armhf-ubuntu:14.04.3
 MAINTAINER Oleg Poyaganov <oleg@poyaganov.com>
 
 RUN apt-get -y update && \
